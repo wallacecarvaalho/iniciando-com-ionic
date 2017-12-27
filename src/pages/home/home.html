@@ -1,0 +1,15 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Home</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <h2>PokeList</h2>
+    <p>
+        Listagem de Pokemons
+    </p>
+    <ul>
+        <li *ngFor="let poks of poks">{{ poks.name }}</li>
+    </ul>
+</ion-content>
